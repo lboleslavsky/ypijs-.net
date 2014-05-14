@@ -1,0 +1,6 @@
+C:\Users\lukas\Documents\Visual Studio 2010\Projects\YpiControl\YpiControl\bin\Release\YpiControl.dll
+C:\Users\lukas\Documents\Visual Studio 2010\Projects\YpiControl\YpiControl\bin\Release\YpiControl.pdb
+C:\Users\lukas\Documents\Visual Studio 2010\Projects\YpiControl\YpiControl\obj\Release\YpiControl.Resource.resources
+C:\Users\lukas\Documents\Visual Studio 2010\Projects\YpiControl\YpiControl\obj\Release\YpiControl.csproj.GenerateResource.Cache
+C:\Users\lukas\Documents\Visual Studio 2010\Projects\YpiControl\YpiControl\obj\Release\YpiControl.dll
+C:\Users\lukas\Documents\Visual Studio 2010\Projects\YpiControl\YpiControl\obj\Release\YpiControl.pdb

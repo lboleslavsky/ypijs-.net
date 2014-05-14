@@ -1,0 +1,6 @@
+C:\Users\lukas\documents\visual studio 2010\Projects\YpiControl\YpiControl\bin\Debug\YpiControl.dll
+C:\Users\lukas\documents\visual studio 2010\Projects\YpiControl\YpiControl\bin\Debug\YpiControl.pdb
+C:\Users\lukas\documents\visual studio 2010\Projects\YpiControl\YpiControl\obj\Debug\YpiControl.Resource.resources
+C:\Users\lukas\documents\visual studio 2010\Projects\YpiControl\YpiControl\obj\Debug\YpiControl.csproj.GenerateResource.Cache
+C:\Users\lukas\documents\visual studio 2010\Projects\YpiControl\YpiControl\obj\Debug\YpiControl.dll
+C:\Users\lukas\documents\visual studio 2010\Projects\YpiControl\YpiControl\obj\Debug\YpiControl.pdb
