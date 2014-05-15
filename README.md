@@ -36,7 +36,7 @@ Add following controls anywhere to page content. At first add script base.
 Then add corresponding avatar or more of them. There is tag called YpiBaseName to join with YpiControl by ID. This control can be anywhere in page body content too.
 
 ```aspx-cs
-<ypi:Avatar ID="avatar1" YpiBaseName="ypiScriptBase" Name="avatar1" BubbleId="npc_avatar_1" IdleTimeout="30000" Speed="150" Alias="Joe Doe" runat="server" />
+<ypi:Avatar ID="avatar1" YpiBaseName="ypiScriptBase" BubbleId="npc_avatar_1" IdleTimeout="30000" Speed="150" Alias="Joe Doe" runat="server" />
 ``` 
  
 Finally add panel with answers. 
