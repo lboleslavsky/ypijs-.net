@@ -58,7 +58,7 @@ Package contains some predefined tags. However, it is possible to set custom pro
 	}
 ```
 
-There is custom event called OnScriptRequired to require embedded script into your page container. Registered method overrides main script including strategy (default is RegisterStartupScript method).
+There is custom event called OnScriptRequired to require embedded script into your page container. Registered method overrides main script including strategy (default is RegisterStartupScript method which can be somewhere uneffective).
 
 ```csharp
 	protected void ypiScriptBase_OnScriptRequired(object sender,Ypi.Events.ScriptEventArgs e)
