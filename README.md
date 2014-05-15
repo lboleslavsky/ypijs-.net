@@ -59,4 +59,4 @@ Package contains some predefined tags. However, it is possible to set custom pro
 
 Custom stylesheet
 -------------------
-Override embedded stylesheet file with CustomStylesheet property. 
+Override embedded stylesheet file with CustomStylesheet property of YpiControl. 
