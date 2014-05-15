@@ -19,7 +19,7 @@ Installation
 
 **Default.aspx:**
 
-```.net
+```aspx-cs
 <%@ Register TagPrefix="ypi" Assembly="YpiControl" Namespace="Ypi.Controls" %>
 ```
 
@@ -29,19 +29,19 @@ Add following controls anywhere to page content. At first add script base.
  
 **Default.aspx:**
  
-```.net
+```aspx-cs
 <ypi:YpiControl ID="ypiScriptBase" runat="server" ChapterUrl="/welcome.xml" InitState="n1" IsAutostart="true" />   
 ``` 
  
 Then add corresponding avatar or more of them. There is tag called YpiBaseName to join with YpiControl by ID. This control can be anywhere in page body content too.
 
-```.net 
+```aspx-cs
 <ypi:Avatar ID="avatar1" YpiBaseName="ypiBase" Name="avatar1" BubbleId="npc_avatar_1" IdleTimeout="30000" Speed="150" Alias="Joe Doe" runat="server" />
 ``` 
  
 Finally add panel with answers. 
  
-```.net
+```aspx-cs
 <ypi:YpiPanel runat="server"/>
 ```
 
@@ -49,7 +49,7 @@ Customize
 -------------------
 Package contains some predefined tags. However, it is possible to set custom property with SetProperty method (YpiControl, Avatar). 
 
-```.net
+```aspx-cs
 	protected void Page_Load(object sender, EventArgs e)
 	{
 		ypiScriptBase.SetProperty("attrCase","['trackId','custom']); 		
