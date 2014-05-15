@@ -53,6 +53,6 @@ Package contains some predefined tags. However, it is possible to set custom pro
 	protected void Page_Load(object sender, EventArgs e)
 	{
 		ypiScriptBase.SetProperty("attrCase","['trackId','custom']"); 		
-		avatar1.SetProperty("IsCommercial", "true");
+		avatar1.SetProperty("Speed", "150");
 	}
 ```
