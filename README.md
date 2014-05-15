@@ -56,3 +56,7 @@ Package contains some predefined tags. However, it is possible to set custom pro
 		avatar1.SetProperty("Speed", "150");
 	}
 ```
+
+Custom stylesheet
+-------------------
+Override embedded stylesheet file with CustomStylesheet property. 
