@@ -1,4 +1,4 @@
-ypijs-.net
+Your Presentation Interface control for ASP.NET appplications (Microsoft Sharepoint too).
 ==========
 
 Package
