@@ -52,9 +52,19 @@ Package contains some predefined tags. However, it is possible to set custom pro
 ```csharp
 	protected void Page_Load(object sender, EventArgs e)
 	{
-		ypiScriptBase.SetProperty("attrCase","['trackId','custom']"); 		
+		//ypiScriptBase.OnScriptRequired+=new EventHandler<Ypi.Events.ScriptEventArgs>(ypiScriptBase_OnScriptRequired);
+		ypiScriptBase.SetProperty("attrCase","['trackId','custom']"); 			
 		avatar1.SetProperty("Speed", "150");
 	}
+```
+
+There is custom event called OnScriptRequired to require embedded script into your page container. Registered method overrides main script including strategy (default is RegisterStartupScript method).
+
+```csharp
+	protected void ypiScriptBase_OnScriptRequired(object sender,Ypi.Events.ScriptEventArgs e)
+    {
+        Page.ClientScript.RegisterStartupScript(this.GetType(), e.Key, e.Url); 
+    }
 ```
 
 Custom stylesheet
