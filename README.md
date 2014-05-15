@@ -30,7 +30,7 @@ Add following controls anywhere to page content. At first add script base.
 **Default.aspx:**
  
 ```aspx-cs
-<ypi:YpiControl ID="ypiScriptBase" runat="server" ChapterUrl="/welcome.xml" InitState="n1" IsAutostart="true" />   
+<ypi:YpiControl ID="ypiScriptBase" runat="server" ChapterUrl="welcome.xml" InitState="n1" IsAutostart="true" />   
 ``` 
  
 Then add corresponding avatar or more of them. There is tag called YpiBaseName to join with YpiControl by ID. This control can be anywhere in page body content too.
