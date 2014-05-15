@@ -49,7 +49,7 @@ Customize
 -------------------
 Package contains some predefined tags. However, it is possible to set custom property with SetProperty method (YpiControl, Avatar). 
 
-```aspx-cs
+```csharp
 	protected void Page_Load(object sender, EventArgs e)
 	{
 		ypiScriptBase.SetProperty("attrCase","['trackId','custom']); 		
