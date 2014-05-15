@@ -150,6 +150,9 @@
   <data name="DELIM_COMMA" xml:space="preserve">
     <value>,</value>
   </data>
+  <data name="ERROR_INVALID_NUMBER_FORMAT" xml:space="preserve">
+    <value>Invalid number format!</value>
+  </data>
   <data name="INCLUDE_STYLESHEET_URL" xml:space="preserve">
     <value>&lt;link rel="stylesheet" type="text/css" href="{0}"/&gt;</value>
   </data>

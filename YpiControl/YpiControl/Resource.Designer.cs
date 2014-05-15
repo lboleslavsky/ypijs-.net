@@ -160,6 +160,15 @@ namespace YpiControl {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Invalid number format!.
+        /// </summary>
+        internal static string ERROR_INVALID_NUMBER_FORMAT {
+            get {
+                return ResourceManager.GetString("ERROR_INVALID_NUMBER_FORMAT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;{0}&quot;/&gt;.
         /// </summary>
         internal static string INCLUDE_STYLESHEET_URL {

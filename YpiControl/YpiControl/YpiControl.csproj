@@ -51,6 +51,8 @@
     <Compile Include="Core\Avatar.cs" />
     <Compile Include="Core\IAvatar.cs" />
     <Compile Include="Core\YpiBaseGenerator.cs" />
+    <Compile Include="Events\PropertyEventArgs.cs" />
+    <Compile Include="Events\ScriptEventArgs.cs" />
     <Compile Include="Resource.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -72,9 +74,6 @@
     <EmbeddedResource Include="ypi_min-1.5.5.js" />
   </ItemGroup>
   <ItemGroup />
-  <ItemGroup>
-    <EmbeddedResource Include="dialog.css" />
-  </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="custom.js" />
   </ItemGroup>

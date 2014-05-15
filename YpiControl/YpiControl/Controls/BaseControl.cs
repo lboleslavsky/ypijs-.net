@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using YpiControl;
+using Ypi.Events;
 
 namespace Ypi.Controls
 {
@@ -24,9 +25,9 @@ namespace Ypi.Controls
         /// </summary>
         public event EventHandler OnPropertyChanged;
         /// <summary>
-        /// Occurs when property is set;
+        /// When including embedded file
         /// </summary>
-        public event EventHandler OnPropertySet;
+        public event EventHandler<ScriptEventArgs> OnScriptRequired;
         
         /// <summary>
         /// Constructor
@@ -45,19 +46,19 @@ namespace Ypi.Controls
         {
             if (!parameters.ContainsKey(name))
             {
-                parameters.Add(name, value);
-                if (OnPropertySet != null)
+                if (OnPropertyChanged != null)
                 {
-                    OnPropertySet.Invoke(this,null);                   
+                    OnPropertyChanged.Invoke(this, new PropertyEventArgs(name,value,null));
                 }
+                parameters.Add(name, value);              
             }
             else
             {
-                parameters[name] = value;
                 if (OnPropertyChanged != null)
                 {
-                    OnPropertyChanged.Invoke(this, null);
+                    OnPropertyChanged.Invoke(this, new PropertyEventArgs(name,value,parameters[name]));
                 }
+                parameters[name] = value;                
             }
         }
 
@@ -71,7 +72,7 @@ namespace Ypi.Controls
             int result;
             if (!int.TryParse(value, out result))
             {
-                throw new ArgumentException("Invalid number format!");
+                throw new ArgumentException(Resource.ERROR_INVALID_NUMBER_FORMAT);
             }
             SetProperty(name, value);
         }
@@ -114,6 +115,11 @@ namespace Ypi.Controls
         /// <param name="content">content</param>
         protected void PlaceScript(string key, string content)
         {
+            if (OnScriptRequired != null)
+            {
+                OnScriptRequired.Invoke(this, new ScriptEventArgs(key, content));
+                return;  
+            }
             Page.ClientScript.RegisterStartupScript(this.GetType(), key, content);
         }
 

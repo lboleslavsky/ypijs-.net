@@ -4,3 +4,9 @@ C:\Users\lukas\documents\visual studio 2010\Projects\YpiControl\YpiControl\obj\D
 C:\Users\lukas\documents\visual studio 2010\Projects\YpiControl\YpiControl\obj\Debug\YpiControl.csproj.GenerateResource.Cache
 C:\Users\lukas\documents\visual studio 2010\Projects\YpiControl\YpiControl\obj\Debug\YpiControl.dll
 C:\Users\lukas\documents\visual studio 2010\Projects\YpiControl\YpiControl\obj\Debug\YpiControl.pdb
+C:\lboleslavsky\ypijs-.net\YpiControl\YpiControl\bin\Debug\YpiControl.dll
+C:\lboleslavsky\ypijs-.net\YpiControl\YpiControl\bin\Debug\YpiControl.pdb
+C:\lboleslavsky\ypijs-.net\YpiControl\YpiControl\obj\Debug\YpiControl.Resource.resources
+C:\lboleslavsky\ypijs-.net\YpiControl\YpiControl\obj\Debug\YpiControl.csproj.GenerateResource.Cache
+C:\lboleslavsky\ypijs-.net\YpiControl\YpiControl\obj\Debug\YpiControl.dll
+C:\lboleslavsky\ypijs-.net\YpiControl\YpiControl\obj\Debug\YpiControl.pdb

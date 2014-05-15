@@ -107,11 +107,10 @@ namespace Ypi.Controls
         /// <param name="e"></param>
         protected override void OnInit(System.EventArgs e)
         {
-            if (ypiCssFileUrl == null)
+            if (ypiCssFileUrl != null)
             {
-                ypiCssFileUrl = GetEmbeddedFileUrl(Resource.YPI_CSS_FILE_URL);
-            }
-            PlaceStyleshet(ypiCssFileUrl);       
+                PlaceStyleshet(ypiCssFileUrl);   
+            }               
             base.OnInit(e);
         }
 

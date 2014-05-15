@@ -1,4 +1,5 @@
 ﻿using System;
+using Ypi.Events;
 
 namespace Ypi.Controls
 {
@@ -14,12 +15,12 @@ namespace Ypi.Controls
     interface IBaseControl
     {
         /// <summary>
-        /// Occurs when property is changed
+        /// Occurs when property is set or changed
         /// </summary>
-        event EventHandler OnPropertyChanged;
+        event EventHandler OnPropertyChanged;        
         /// <summary>
-        /// Occurs when property is set;
+        /// When including embedded file
         /// </summary>
-        event EventHandler OnPropertySet;
+        event EventHandler<ScriptEventArgs> OnScriptRequired;
     }
 }
