@@ -71,11 +71,12 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resource.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="ypi_min-1.5.5.js" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <EmbeddedResource Include="custom.js" />
+    <EmbeddedResource Include="ypi_min-1.5.7.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="custom.js" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

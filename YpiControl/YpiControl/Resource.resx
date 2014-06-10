@@ -138,6 +138,9 @@
   <data name="ATTR_IS_AUTOSTART" xml:space="preserve">
     <value>isAutostart</value>
   </data>
+  <data name="ATTR_IS_EXPR_ENABLED" xml:space="preserve">
+    <value>isExprEnabled</value>
+  </data>
   <data name="ATTR_IS_SOUND_ENABLED" xml:space="preserve">
     <value>isSoundEnabled</value>
   </data>
@@ -213,7 +216,7 @@
     <value>YpiControl.custom.js</value>
   </data>
   <data name="YPI_MIN_FILE_URL" xml:space="preserve">
-    <value>YpiControl.ypi_min-1.5.5.js</value>
+    <value>YpiControl.ypi_min-1.5.7.js</value>
   </data>
   <data name="YPI_MIN_KEY" xml:space="preserve">
     <value>ypi_min</value>

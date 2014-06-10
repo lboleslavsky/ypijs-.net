@@ -23,7 +23,7 @@ namespace Ypi.Controls
         /// </summary>
         public YpiControl():base()
         {
-            ypiBaseGenerator = new YpiBaseGenerator(parameters);            
+            ypiBaseGenerator = new YpiBaseGenerator(parameters);
         }
         
         /// <summary>
@@ -76,6 +76,17 @@ namespace Ypi.Controls
             set
             {
                 SetProperty(Resource.ATTR_IS_SOUND_ENABLED, value);
+            }
+        }
+
+        /// <summary>
+        /// Enable/disable interpret of expressions
+        /// </summary>
+        public string IsExprEnabled
+        {
+            set
+            {
+                SetProperty(Resource.ATTR_IS_EXPR_ENABLED, value);
             }
         }
 

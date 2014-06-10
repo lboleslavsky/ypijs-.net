@@ -124,6 +124,15 @@ namespace YpiControl {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to isExprEnabled.
+        /// </summary>
+        internal static string ATTR_IS_EXPR_ENABLED {
+            get {
+                return ResourceManager.GetString("ATTR_IS_EXPR_ENABLED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to isSoundEnabled.
         /// </summary>
         internal static string ATTR_IS_SOUND_ENABLED {
@@ -342,7 +351,7 @@ namespace YpiControl {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to YpiControl.ypi_min-1.5.5.js.
+        ///   Looks up a localized string similar to YpiControl.ypi_min-1.5.7.js.
         /// </summary>
         internal static string YPI_MIN_FILE_URL {
             get {

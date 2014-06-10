@@ -32,9 +32,9 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.5.1")]
-[assembly: AssemblyFileVersion("1.0.5.1")]
+[assembly: AssemblyVersion("1.0.7.1")]
+[assembly: AssemblyFileVersion("1.0.7.1")]
 
 [assembly: System.Web.UI.WebResource("YpiControl.custom.js", "application/x-javascript")]
 [assembly: System.Web.UI.WebResource("YpiControl.jquery-1.9.1.min.js", "application/x-javascript")]
-[assembly: System.Web.UI.WebResource("YpiControl.ypi_min-1.5.5.js", "application/x-javascript")]
+[assembly: System.Web.UI.WebResource("YpiControl.ypi_min-1.5.7.js", "application/x-javascript")]

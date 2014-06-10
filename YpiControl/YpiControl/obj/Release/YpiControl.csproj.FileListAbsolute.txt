@@ -6,7 +6,6 @@ C:\Users\lukas\Documents\Visual Studio 2010\Projects\YpiControl\YpiControl\obj\R
 C:\Users\lukas\Documents\Visual Studio 2010\Projects\YpiControl\YpiControl\obj\Release\YpiControl.pdb
 C:\lboleslavsky\ypijs-.net\YpiControl\YpiControl\bin\Release\YpiControl.dll
 C:\lboleslavsky\ypijs-.net\YpiControl\YpiControl\bin\Release\YpiControl.pdb
-C:\lboleslavsky\ypijs-.net\YpiControl\YpiControl\obj\Release\YpiControl.csprojResolveAssemblyReference.cache
 C:\lboleslavsky\ypijs-.net\YpiControl\YpiControl\obj\Release\YpiControl.Resource.resources
 C:\lboleslavsky\ypijs-.net\YpiControl\YpiControl\obj\Release\YpiControl.csproj.GenerateResource.Cache
 C:\lboleslavsky\ypijs-.net\YpiControl\YpiControl\obj\Release\YpiControl.dll
